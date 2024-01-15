@@ -1,38 +1,40 @@
 # Class 05
 
-
 Rows names
-    Records
-    Observations
-    Instances
-    Entires
-    Data Points
 
-Columns names  
-    Attributes
-    Dimensions
-    Varibles
-    Properties
-    Features
-    Fields
+- Records
+- Observations
+- Instances
+- Entires
+- Data Points
+
+Columns names
+
+- Attributes
+- Dimensions
+- Varibles
+- Properties
+- Features
+- Fields
 
 Data life cycle in data science
-Acquire / ask
-    Clean / process
-        Use / reuse / analyze
-            publish / report
-                destroy / preerve / save
 
-Acquire for data  
-    if tabulated: called structured data
-    audio / images: unstructure
+- Acquire / ask
+  - Clean / process
+    - Use / reuse / analyze
+      - publish / report
+        - destroy / preerve / save
 
-Before collection data 
-we need wh question to asked
-    why, how, where, who, when
+Acquire for data
 
+- if tabulated: called structured data
+- audio / images: unstructure
 
-Role of Data scientist
+Before collection data we need `wh` question to asked
+> why, how, where, who, when
+
+## Role of Data scientist
+
     Understand business
     Data aquisition / understanding
     Data preprare
@@ -43,7 +45,8 @@ Role of Data scientist
     Optimization
     Tools: PowerBI / Tabelue / Python
 
-Role Data Analist
+## Role Data Analist
+
     Required info about data (meta data)
     Data collection
     Assigned goals by company
