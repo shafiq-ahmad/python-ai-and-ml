@@ -115,4 +115,93 @@ Choose env in VS code run any code to test env.
 > Binning\
 > Clustering
 
+## Data Inconsistencies
 
+Inconsistence Format
+Example: using different date formats
+
+Inconsistent Naming convension
+Example country name: US, USA, United State of America
+
+Typographical errors
+
+Duplications
+
+Contradictory data
+
+## Outliers
+
+Change in normal data or different then others.
+
+Different names
+
+- Outliers
+- Deviants
+- Abormalities
+- Anomalous points
+- Abberrat
+
+Types
+
+- Univariant: in one variable
+- Multivariant:
+- Global outliers
+- Point outliers
+- Local outliers
+- Contextual outliers
+- Collective outliers
+- Recurrent outliers
+- Periodic outliers
+
+Causes of outliers
+
+Data entry error
+Measurement error
+Experimental error
+Intentional outliers
+Data Processing error
+Sampling error
+Natural outliers
+
+Why important
+Hidden clues
+Data quality
+Impact
+Better model/decision
+Visualization
+
+Methods to remove
+
+Z-Score
+remove out side -3 to 3
+
+IQR method
+which is 25% to 75% of data
+IQR*1.5 outsize is outliers
+Q1-IQR*1.5
+Q3+IQR*1.5
+
+KMeans methods
+
+Data Merging
+when data taken from various sources
+
+using pandas lib
+pd.merge(data1, data2, on='id', how='inner')
+
+Data Concatenation
+
+pd.concat([data1, data2], axis=1)
+
+## Transforming / scaling linear data
+
+- Min/max scalar: 0 - 1
+- Max abs scalar: -1 to 1
+- Standard scalar: 3 to -3
+
+before adoptin a method check if AI model support negitive values
+
+scikit learn online
+standardization method and map of functions
+
+## Standard Scaling
